@@ -11,47 +11,48 @@ This project implements a full stack authentication system with secure user regi
 ### Backend Setup
 
 1. Navigate to the backend folder:
-   
+   ```bash
    cd backend
-   
+   ```
 
 2. Install dependencies:
-   
+   ```bash
    npm install
-  
+   ```
 
-3. Create a `.env` file with the following variables
+3. Create a `.env` file with the following variables:
  - PORT=3000
  - MONGO_URI
  - JWT_SECRET
  - AES_SECRET_KEY
 
 4. Start the backend server:
-
+   ```bash
    node server.js
-
+   ```
 
 The backend will run on `http://localhost:3000`.
 
 ### Frontend Setup
 
 1. Navigate to the frontend folder:
-   
+   ```bash
    cd frontend
-
+   ```
 
 2. Install dependencies:
-   
+   ```bash
    npm install
-
+   ```
 
 3. Start the React application:
-   
+   ```bash
    npm start
-
+   ```
 
 The frontend will run on `http://localhost:3000` (or another available port).
 
+---
 
 ## API Documentation
 
