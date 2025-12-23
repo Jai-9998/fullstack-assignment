@@ -92,12 +92,6 @@ const Login = () => {
                     </button>
                   </div>
                 </form>
-
-                <div className="text-center mt-3">
-                  <a href="#" className="text-decoration-none small">
-                    Forgot password?
-                  </a>
-                </div>
               </div>
             </div>
 
