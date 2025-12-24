@@ -104,3 +104,24 @@ Authorization: Bearer <JWT_TOKEN>
 - **password**: `String` (hashed using bcrypt)
 - **aadhaar**: `String` (AES encrypted)
 - **createdAt**: `Date` (auto-generated)
+
+---
+
+## AI Flavor Token Validation & Encryption Tests
+
+An AI tool was used to assist in generating:
+* A backend utility function for validating JWT tokens.
+* Comprehensive unit test cases to verify the correctness of AES encryption and decryption logic.
+
+These tests ensure:
+* Tokens are validated correctly before accessing protected routes.
+* Aadhaar encryption is reversible only with the correct secret key.
+* Decryption fails safely for invalid or tampered data.
+
+---
+
+## Effectiveness Score (AI Tool Usage)
+
+**Score: 4 / 5**
+
+**Justification:** AI tools significantly improved development efficiency by quickly generating secure JWT authentication logic, AES-based encryption/decryption utilities, and corresponding unit test structures. They also helped in resolving integration issues between frontend and backend faster than manual debugging.
